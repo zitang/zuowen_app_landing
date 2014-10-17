@@ -1,0 +1,143 @@
+body {
+  padding-top: 50px;
+  background-color: #d6d1c9;
+}
+#firstRow {
+  background-color: #f4f0e9;
+  padding-top: 100px;
+}
+#firstRow #smallViewHeader {
+  margin-top: -100px;
+}
+#firstRow #smallViewHeader .topHeading {
+  margin-top: 20px;
+}
+#firstRow #smallViewHeader .topDownloading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#firstRow .heading {
+  margin-top: 20px;
+}
+#firstRow #rightSide {
+  margin-top: -50px;
+  padding-left: 60px;
+}
+#firstRow .androidDownloadImg {
+  display: block;
+  width: 240px;
+  height: 88px;
+  background: url('../images/button1_normal.png');
+}
+#firstRow .androidDownloadImg:hover,
+#firstRow .androidDownloadImg:focus {
+  background: url('../images/button1_hover.png');
+}
+#firstRow .androidDownloadImg:visited {
+  background: url('../images/button1_clicked.png');
+}
+#firstRow .downloadSection {
+  margin-top: 40px;
+}
+#firstRow .downloadSection div {
+  width: 240px;
+  margin-right: 10px;
+  float: left;
+}
+#firstRow .downloadSection div .secondImg {
+  margin-top: 24px;
+}
+#firstRow .downloadSection div.secondColumn {
+  margin-left: 20px;
+  width: 200px;
+}
+#firstRow .downloadSection div .codeImg {
+  width: 200px;
+  height: 200px;
+}
+#firstRow .downloadSection div.last {
+  width: inherit;
+  margin-left: 8px;
+  margin-top: -20px;
+}
+#secondRow {
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+#secondRow h2 {
+  color: #686259;
+}
+#secondRow p {
+  color: #aaa79d;
+  font-size: 18px;
+}
+#secondRow img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#secondRow .row div {
+  padding-top: 40px;
+}
+#secondRow .featureImg {
+  width: 150px;
+  height: 150px;
+}
+#secondRow .featureImg#searchImg {
+  background: url('../images/icon1.png');
+}
+#secondRow .featureImg#searchImg:hover {
+  background: url('../images/icon1_hover.png');
+}
+#secondRow .featureImg#favImg {
+  background: url('../images/icon2.png');
+}
+#secondRow .featureImg#favImg:hover {
+  background: url('../images/icon2_hover.png');
+}
+#secondRow .featureImg#libImg {
+  background: url('../images/icon3.png');
+}
+#secondRow .featureImg#libImg:hover {
+  background: url('../images/icon3_hover.png');
+}
+#footer {
+  height: 80px;
+}
+#footer .container div {
+  line-height: 80px;
+  font-size: 16px;
+  color: #ffffff;
+}
+#footer .container div .contactInfo {
+  float: left;
+}
+#footer .container div .contactInfo#firstContact {
+  margin-right: 20px;
+}
+#footer #topFooter {
+  height: 80px;
+  background-color: #c6c2bd;
+}
+#footer #topFooter div {
+  float: left;
+  width: 50%;
+  line-height: 80px;
+  color: #fff;
+}
+#header {
+  border-bottom: none;
+  margin-bottom: 0;
+  background-color: #d8cdb4;
+}
+#header .container .navbar-header .navbar-brand,
+#header .container .navbar-nav li a {
+  color: #fff;
+}
+#header .container .navbar-header .navbar-brand {
+  font-size: 16px;
+}
+#header #smallTitle {
+  line-height: 50px;
+  color: #fff;
+  font-size: 16px;
+}
