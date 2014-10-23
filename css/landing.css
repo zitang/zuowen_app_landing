@@ -135,6 +135,9 @@ body {
   line-height: 80px;
   color: #fff;
 }
+#footer #topFooter div span {
+  font-size: 12px;
+}
 #header {
   border-bottom: none;
   margin-bottom: 0;
