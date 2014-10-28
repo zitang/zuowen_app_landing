@@ -121,6 +121,10 @@ body {
 }
 #footer .container div .contactInfo {
   float: left;
+  color: #fff !important;
+}
+#footer .container div .contactInfo a {
+  color: #fff !important;
 }
 #footer .container div .contactInfo#firstContact {
   margin-right: 20px;
@@ -134,9 +138,13 @@ body {
   width: 50%;
   line-height: 80px;
   color: #fff;
+  font-size: 12px;
 }
 #footer #topFooter div span {
   font-size: 12px;
+}
+#footer #topFooter div a {
+  color: #fff !important;
 }
 #header {
   border-bottom: none;
