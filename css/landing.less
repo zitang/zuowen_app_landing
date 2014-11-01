@@ -28,6 +28,11 @@ body {
       margin-bottom: 20px;
     }
 
+    .topCopyright {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
     .topWaitingSection {
       margin-top: 20px;
       margin-bottom: 20px;
@@ -41,6 +46,10 @@ body {
   #rightSide {
     margin-top: -50px;
     padding-left: 60px;
+
+    #mdSloganImg {
+      max-width: 300px;
+    }
   }
 
   .androidDownloadImg {
@@ -59,7 +68,7 @@ body {
   }
 
   .downloadSection {
-    margin-top: 40px;
+    margin-top: 20px;
 
     div {
       width: 240px;
@@ -116,6 +125,10 @@ body {
   img {
     margin-top: 15px;
     margin-bottom: 15px;
+
+    &.visible-xs {
+      max-width: 150px;
+    }
   }
 
   .row {
@@ -131,7 +144,18 @@ body {
     height: 150px;
     cursor: default;
 
-    &#searchImg {
+    &.visible-xs {
+      max-width: 120px;
+      max-height: 120px;
+      margin-bottom: 10px;
+
+      img {
+        max-width: 100px;
+        max-height: 100px;
+      }
+    }
+
+    &.searchImg {
       background: url('../images/icon1.png');
 
       &:hover {
@@ -139,7 +163,7 @@ body {
       }
     }
 
-    &#favImg {
+    &.favImg {
       background: url('../images/icon2.png');
 
       &:hover {
@@ -147,7 +171,7 @@ body {
       }
     }
 
-    &#libImg {
+    &.libImg {
       background: url('../images/icon3.png');
 
       &:hover {

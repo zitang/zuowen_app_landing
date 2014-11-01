@@ -16,6 +16,10 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+#firstRow #smallViewHeader .topCopyright {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 #firstRow #smallViewHeader .topWaitingSection {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -26,6 +30,9 @@ body {
 #firstRow #rightSide {
   margin-top: -50px;
   padding-left: 60px;
+}
+#firstRow #rightSide #mdSloganImg {
+  max-width: 300px;
 }
 #firstRow .androidDownloadImg {
   display: block;
@@ -41,7 +48,7 @@ body {
   background: url('../images/button1_clicked.png');
 }
 #firstRow .downloadSection {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 #firstRow .downloadSection div {
   width: 240px;
@@ -85,6 +92,9 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+#secondRow img.visible-xs {
+  max-width: 150px;
+}
 #secondRow .row div {
   padding-top: 40px;
 }
@@ -93,22 +103,31 @@ body {
   height: 150px;
   cursor: default;
 }
-#secondRow .featureImg#searchImg {
+#secondRow .featureImg.visible-xs {
+  max-width: 120px;
+  max-height: 120px;
+  margin-bottom: 10px;
+}
+#secondRow .featureImg.visible-xs img {
+  max-width: 100px;
+  max-height: 100px;
+}
+#secondRow .featureImg.searchImg {
   background: url('../images/icon1.png');
 }
-#secondRow .featureImg#searchImg:hover {
+#secondRow .featureImg.searchImg:hover {
   background: url('../images/icon1_hover.png');
 }
-#secondRow .featureImg#favImg {
+#secondRow .featureImg.favImg {
   background: url('../images/icon2.png');
 }
-#secondRow .featureImg#favImg:hover {
+#secondRow .featureImg.favImg:hover {
   background: url('../images/icon2_hover.png');
 }
-#secondRow .featureImg#libImg {
+#secondRow .featureImg.libImg {
   background: url('../images/icon3.png');
 }
-#secondRow .featureImg#libImg:hover {
+#secondRow .featureImg.libImg:hover {
   background: url('../images/icon3_hover.png');
 }
 #footer {
